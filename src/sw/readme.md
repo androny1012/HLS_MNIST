@@ -19,14 +19,24 @@ python和c语言实现全连接mnist手写数字识别
     -dataset 官方mnist数据集，如果文件夹下没有，就运行1_main.py自动下载
 
 环境：
+
     conda create -n torch python=3.11
+    
     pip3 install torch torchvision torchaudio（或者自己装 GPU 版本，本项目 CPU 版本足够）
+    
     pip3 install tqdm
+    
 
 网络结构：
+
     input:      1 * 28 * 28
+    
     conv1:      8 * 26 * 26
+    
     pooling1:   8 * 13 * 13
+    
     conv2:      8 * 11 * 11
+    
     pooling2:   8 *  5 *  5
+    
     fc1     :   200
