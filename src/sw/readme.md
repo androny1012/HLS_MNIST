@@ -25,7 +25,8 @@ python和c语言实现全连接mnist手写数字识别
     pip3 install torch torchvision torchaudio（或者自己装 GPU 版本，本项目 CPU 版本足够）
     
     pip3 install tqdm
-    
+
+    运行代码需要先下载数据集，并修改对应代码中的路径
 
 网络结构：
 
